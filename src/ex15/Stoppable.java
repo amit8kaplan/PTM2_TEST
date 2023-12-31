@@ -1,5 +1,5 @@
-package test;
-
-public interface Stoppable {
-	void stop();
-}
+//package test;
+//
+//public interface Stoppable {
+//	void stop();
+//}
