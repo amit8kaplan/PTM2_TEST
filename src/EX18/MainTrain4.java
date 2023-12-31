@@ -56,7 +56,7 @@ public class MainTrain4 {
         long db=System.nanoTime()-t0;
 
         t0=System.nanoTime();
-        int sq4= test.Q4.goodCode(arr,x);
+        int sq4= EX18.Q4.goodCode(arr,x);
         long dg=System.nanoTime()-t0;
 
         if(sq4!=s){
