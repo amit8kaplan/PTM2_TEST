@@ -17,11 +17,11 @@ public class MainTrain1 {
 				sum[0]+=10;
 				//System.out.println(sum[0]);
 			});
-		
+		System.out.println("start of waithing");
 		// wait for 1.5 second
 		try { Thread.sleep(1500);} catch (InterruptedException e) {}
 		// by now your pooled thread should close
-
+		System.out.println("end of waithing");
 		if(Thread.activeCount()!= count )
 			System.out.println("your PooledThread object did not close its thread (-10)");
 		
