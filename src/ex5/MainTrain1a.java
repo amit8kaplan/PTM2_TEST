@@ -1,4 +1,4 @@
-package test;
+package ex5;
 
 import java.util.concurrent.Future;
 

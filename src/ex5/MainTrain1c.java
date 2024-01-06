@@ -1,4 +1,4 @@
-package test;
+package ex5;
 
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
@@ -16,18 +16,18 @@ public class MainTrain1c {
 			if(max<array[i])
 				max=array[i];
 		}
-		
+
 		int tc=Thread.activeCount();
 		ExecutorService es=Executors.newCachedThreadPool();
 		try {
-			Integer rmax = Q1c.recThis(es, array, 0, array.length, (Integer x,Integer y)->(x>y?x:y));
+			Integer rmax = Q1c.recThis(es, array, 0, array.length, (Integer x, Integer y)->(x>y?x:y));
 			if(rmax!=max)
 				System.out.println("recThis did not return the correct value (-10)");
 			if(Thread.activeCount()-tc<5)
 				System.out.println("you did not open the correct number of threads (-10)");
 		} catch (Exception e) {
 			System.out.println("you have some runtime Exception (-20)");
-		}		
+		}
 		es.shutdown();
 		System.out.println("done");
 	}

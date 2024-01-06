@@ -1,3 +1,4 @@
+/*
 package ex6;
 
 
@@ -22,3 +23,4 @@ public class Singleton {
 		// c.newInstance() creates a new instance of type VMID
 		// c.getName() returns a String - the name of type V
 }
+*/

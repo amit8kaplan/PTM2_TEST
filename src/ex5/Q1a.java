@@ -1,4 +1,4 @@
-package test;
+package ex5;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
@@ -13,11 +13,17 @@ public class Q1a {
 		es=Executors.newSingleThreadExecutor();
 	}
 
+
 	
 	public void close(){
 		es.shutdown();
 	}
-	
+
+	public<V> Future<V> threadIt(Callable<V> o) {
+		return es.submit(o);
+	}
+
+
 	// implement threadIt() method here
 	
 }
