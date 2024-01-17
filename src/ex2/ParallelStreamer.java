@@ -34,7 +34,7 @@ public class ParallelStreamer<E> {
 		
 	
 	public void add(E e) throws InterruptedException{
-		if(!this.stop){
+		if (!this.stop){
 			this.arrayList.get(this.round).put(e);
 			this.round=(this.round+1)%this.size;
 		}

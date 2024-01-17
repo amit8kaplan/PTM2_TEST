@@ -1,7 +1,6 @@
-//package test;
+//package ex6;
 //
 //public class BadCode {
-//
 //
 //	private static double average(int[] array){
 //

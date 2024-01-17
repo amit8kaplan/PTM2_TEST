@@ -1,4 +1,4 @@
-//package test;
+//package ex9;
 //
 //import java.text.DecimalFormat;
 //import java.util.Random;
@@ -15,12 +15,12 @@
 //
 //		// time for bad code
 //		long bad=System.nanoTime();
-//		int br= test.BadCode.common(grades);
+//		int br= ex9.BadCode.common(grades);
 //		bad=System.nanoTime()-bad;
 //
 //		// time for OPT code
 //		long good=System.nanoTime();
-//		int gr= test.GoodCode.common(grades);
+//		int gr= ex9.GoodCode.common(grades);
 //		good=System.nanoTime()-good;
 //
 //		if(gr!=br){

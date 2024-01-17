@@ -1,4 +1,4 @@
-//package test;
+//package ex5;
 //
 //public class Q2bad {
 //

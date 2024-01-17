@@ -1,4 +1,4 @@
-//package test;
+//package ex7;
 //
 //import java.awt.Point;
 //

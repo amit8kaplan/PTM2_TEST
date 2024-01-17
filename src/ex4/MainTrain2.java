@@ -1,4 +1,4 @@
-//package test;
+//package ex4;
 //
 //public class MainTrain2 {
 //
@@ -12,6 +12,7 @@
 //	static double[] averageCols(double[][] data){
 //		double avg[]=new double[data[0].length];
 //		for(int col=0;col<data[0].length;col++){
+//
 //			double column[]=new double[data.length];
 //			for(int row=0;row<data.length;row++){
 //				column[row]=data[row][col];
@@ -37,7 +38,7 @@
 //
 //
 //		t0=System.nanoTime();
-//		double[] avgStudent= test.Q2.averageCols(data);
+//		double[] avgStudent= ex4.Q2.averageCols(data);
 //		long goodTime=System.nanoTime()-t0;
 //		System.out.println("your time: "+ goodTime);
 //

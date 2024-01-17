@@ -1,4 +1,4 @@
-//package test;
+//package ex7;
 //
 //import ex14.BadCode;
 //import ex14.GoodCode;

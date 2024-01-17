@@ -1,4 +1,4 @@
-//package test;
+//package ex8;
 //
 //import java.util.ArrayList;
 //import java.util.Random;
@@ -15,14 +15,14 @@
 //		}
 //
 //		long time0=System.nanoTime();
-//		test.Q2bad bad=new test.Q2bad(X, Y);
+//		ex8.Q2bad bad=new ex8.Q2bad(X, Y);
 //		double ce=bad.conditionalEntropy();
 //		long time1=System.nanoTime();
 //
 //		long badTime=time1-time0;
 //
 //		time0=System.nanoTime();
-//		test.Q2good good=new test.Q2good(X, Y);
+//		ex8.Q2good good=new ex8.Q2good(X, Y);
 //		double sce=good.conditionalEntropy();
 //		time1=System.nanoTime();
 //		long goodTime=time1-time0;

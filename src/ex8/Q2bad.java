@@ -1,4 +1,4 @@
-//package test;
+//package ex8;
 //
 //import java.util.List;
 //
@@ -16,7 +16,6 @@
 //		for(int i=0;i<Y.size();i++)
 //			if(Y.get(i)==yj)
 //				count++;
-//
 //		return count/Y.size();
 //	}
 //

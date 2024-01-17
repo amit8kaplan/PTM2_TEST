@@ -1,6 +1,5 @@
-//package test;
+//package ex6;
 //
-//import ex14.BadCode;
 //import ex14.GoodCode;
 //
 //import java.text.DecimalFormat;
@@ -18,6 +17,7 @@
 //	}
 //
 //	public static void main(String[] args) {
+//		System.out.println(10000>>2);
 //		// random input
 //		Random r=new Random();
 //		int input[]=new int[32768];

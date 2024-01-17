@@ -1,4 +1,4 @@
-//package test;
+//package ex5;
 //
 //import java.text.DecimalFormat;
 //import java.util.ArrayList;
@@ -29,12 +29,12 @@
 //
 //		// time for bad code
 //		long bad=System.nanoTime();
-//		int bmin=Q2bad.findMinH(input);
+//		int bmin= Q2bad.findMinH(input);
 //		bad=System.nanoTime()-bad;
 //
 //		// time for OPT code
 //		long good=System.nanoTime();
-//		int gmin=Q2.findMinH(input2);
+//		int gmin= Q2.findMinH(input2);
 //		good=System.nanoTime()-good;
 //
 //		if(bmin!=gmin){

@@ -1,4 +1,4 @@
-package test;
+package ex17;
 
 import java.util.concurrent.*;
 
